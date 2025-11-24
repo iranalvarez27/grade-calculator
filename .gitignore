@@ -1,0 +1,38 @@
+echo "target/" > .gitignore
+echo ".idea/" >> .gitignore
+echo "*.iml" >> .gitignore
+echo ".classpath" >> .gitignore
+echo ".project" >> .gitignore
+echo ".settings/" >> .gitignore
+echo ".vscode/" >> .gitignore
+```
+
+**O copia este contenido manualmente:**
+
+**Archivo:** `.gitignore`
+```
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VSCode
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
